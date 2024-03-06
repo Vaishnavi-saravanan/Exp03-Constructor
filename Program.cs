@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace exp3
+namespace Constructor
 {
     public class Employee
     {
@@ -42,9 +42,9 @@ namespace exp3
     {
         static void Main(string[] args)
         {
-            Employee emp1 = new Employee("Jayabharathi", "Cyber Security Analyst", 80000,5, 6000);
+            Employee emp1 = new Employee("Vaishnavi", "Data Scientist", 80000,5, 6000);
             emp1.Display();
-            Employee emp2 = new Employee("Meera", "Frontend Developer", 75000,6, 5000);
+            Employee emp2 = new Employee("Nora", "Game and App Developer", 75000,6, 5000);
             emp2.Display();
             Console.ReadLine();
         }
