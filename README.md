@@ -29,7 +29,7 @@ REG NO : 212222230165
 ```
 using System;
 
-namespace exp3
+namespace Constructor
 {
     public class Employee
     {
@@ -71,22 +71,24 @@ namespace exp3
     {
         static void Main(string[] args)
         {
-            Employee emp1 = new Employee("Jayabharathi", "Cyber Security Analyst", 80000,5, 6000);
+            Employee emp1 = new Employee("Vaishnavi", "Data Scientist", 80000, 5, 6000);
             emp1.Display();
-            Employee emp2 = new Employee("Meera", "Frontend Developer", 75000,6, 5000);
+            Employee emp2 = new Employee("Nora", "Game and App Developer", 75000, 6, 5000);
             emp2.Display();
             Console.ReadLine();
         }
     }
 
 }
+   
 ```
 
 # Output:
 ![Screenshot 2024-03-06 225618](https://github.com/Vaishnavi-saravanan/Exp03-Constructor/assets/118541897/ce480ef0-a7f0-458c-b2de-178a7bf26c95)
-![Screenshot 2024-03-06 225629](https://github.com/Vaishnavi-saravanan/Exp03-Constructor/assets/118541897/fe019e9b-d480-49f1-a361-c676adfbbb9c)
-![Screenshot 2024-03-06 225557](https://github.com/Vaishnavi-saravanan/Exp03-Constructor/assets/118541897/b9ade5fa-ed69-4d26-a573-d6dd78fbe9eb)
 
+![Screenshot 2024-03-06 230109](https://github.com/Vaishnavi-saravanan/Exp03-Constructor/assets/118541897/5519bed8-a5e7-4f6d-a6a2-8405b8518436)
+
+![Screenshot 2024-03-06 230132](https://github.com/Vaishnavi-saravanan/Exp03-Constructor/assets/118541897/35b5495e-e320-42f6-bcd0-7c98710aeb3e)
 
 # Result:
 Thus, a C# program is written to calculate the salary of an employee using a constructor is implemented and the output is verified.
